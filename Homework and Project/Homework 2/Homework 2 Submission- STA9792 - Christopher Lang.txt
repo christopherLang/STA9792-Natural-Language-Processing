@@ -1,0 +1,65 @@
+Christopher Lang
+STA9792 - Special Topics in Statistics (NLP)
+Homework 2 Submission
+2017-09-10
+================================================================================
+
+--------------------------------------------------------------------------------
+Question 4.2
+The program function is in the file "homework2 - STA9792 - Christopher Lang.py"
+The program is written in Python, specifically Python 3.5.3
+
+Please see the attached file
+
+--------------------------------------------------------------------------------
+Question 4.3
+The articles used for comparison was an article written by the New York Times
+and one from the BBC. References to the articles are below:
+
+
+Goel, V. (2017, September 10). With a $1,000 Price Tag, Apple’s iPhone Crosses a Threshold. https://www.nytimes.com/2017/09/10/technology/apple-iphone-price.html
+
+Anderson, H. (2017, September 6). How Americanisms are killing the english language. http://www.bbc.com/culture/story/20170904-how-americanisms-are-killing-the-english-language
+
+
+The New York Times articles is about the upcoming iPhone 8, and the BBC article
+discusses how the author's British English is being corrupted by American
+English.
+
+For both articles, the most common types of unigrams are stopwords. For example,
+the word "the" is the most common unigram for both bodies of text. Other common
+unigrams include the word "a" and "to". These stopwords are often used heavily
+to help the author create cohesive and proper sentences, in order to convey
+ideas to the reader quickly and efficiently
+
+Of course, there are differences in the unigrams. Within the top 20 unigrams for
+the New York Times article, the words "iphone", "phone", and "apple" are among
+the most common non-stopword unigrams. This is to be expected, as the article's
+content is specifically about the upcoming iPhone
+
+Within the top 20 unigrams of the BBC article, unique unigrams specific to the
+content show up, such as "american", "english", and "british". Notably, the BBC
+article's top 10 unigrams are all stopwords, showing some differences between the
+author's writing style, or how the subject dictates the words used
+
+
+Bigrams begin to show significant differences, more so than commonalities. In
+the BBC article, the most common bigram is "I was", indicating that the article
+is much more personal than the New York Times article. The next two,
+"British English" and "American English" are relevant to the article's subject.
+The author is likely comparing and/or contrasting the two types of English
+
+In comparison, the most common bigrams in the New York Times Article is
+"The New" and then "The iPhone", which hints that the article is discussing the
+new iPhone that is soon to be released (speculated at least). Other common but
+important bigrams include "in Brazil" and "in China", which is in regards to the
+two large and growing markets that Apple is competing in with the iPhone
+
+Unigrams suffer from stopwords and the lack of word lemmatization/stemming.
+Without performing this cleaning step, unigrams is filled with noisy data, making
+it difficult to ascertain the content of the article without reading it
+
+Bigrams suffers from this less, and can often improve the interpretation of the
+bigrams. For example, in regards to bigrams, there were very little common bigrams
+between the two articles (there were a few but mostly stopwords) and was more
+easily interpretable to a human
