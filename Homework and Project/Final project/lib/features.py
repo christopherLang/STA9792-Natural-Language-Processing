@@ -243,7 +243,6 @@ class SimpleTextFeatures(object):
         else:
             for a_cleaner_fun in self.cleaners:
                 level = a_cleaner_fun['level']
-                execution_name = a_cleaner_fun['name']
                 cleaner_fun = a_cleaner_fun['fun']
 
                 if level == 'article':
